@@ -1,6 +1,6 @@
 ## アプリの概要
 Reactを使って、Todoリストのアプリを作成しました。
-firebaseで公開しているので、挙動確認は以下のURLより確認してください。
+firebaseで公開しているので、挙動確認は以下のURLよりご確認ください。
 https://react-to-do-e11c8.web.app/
 
 ![demo](https://gyazo.com/c0f911d138efead242e834ab6e881961/raw)
