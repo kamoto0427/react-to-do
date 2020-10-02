@@ -1,8 +1,8 @@
-import React, { createContexst,  useState } from 'react'
+import React, { createContext,  useState } from 'react'
 
 export const TodosContext = createContexst()
 
-const TodoContexstProvider = (props) => {
+const TodosContextProvider = (props) => {
   return (
     <TodosContext.Provider>
       {props.children}
@@ -10,4 +10,4 @@ const TodoContexstProvider = (props) => {
   )
 }
 
-export default TodoContexstProvider
+export default TodosContextProvider
