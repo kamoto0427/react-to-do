@@ -1,6 +1,6 @@
 import React, { createContext,  useState } from 'react'
 
-export const TodosContext = createContexst()
+export const TodosContext = createContext()
 
 const TodosContextProvider = (props) => {
   const [todos, setTodos] = useState([])

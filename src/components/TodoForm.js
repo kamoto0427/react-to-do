@@ -1,7 +1,8 @@
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react';
 import { Form, InputGroup, Input, InputGroupAddon, Button } from 'reactstrap';
-
-function TodoForm({addTodo}) {
+import { TodosContext } from '../contexts/TodosContext';
+function TodoForm() {
+  const { addTodo } = useContext(TodosContext)
   const [value, setValue] = useState('')
   const handleSubmit = e => {
     e.preventDefault()
